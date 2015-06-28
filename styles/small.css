@@ -1,0 +1,117 @@
+body {
+	font-family: courier, monospace;
+	font-size: .5em;
+}
+
+div#content {
+	width: 300px;
+}
+
+div#logo-menu {
+	width: 300px;
+	height: 100px;
+}
+
+div#logo {
+	height: 66px;
+	width: 100px;
+	margin-top: 20px;
+}
+
+div#logo div#tagline {
+	display: none;
+}
+
+div#slider {
+	width: 300px;
+}
+
+div#footer {
+	width: 300px;
+}
+
+div#footer-inset {
+	display: none;
+}
+
+div#footer-right {
+	position: absolute;
+	font-size: 1em;
+	display: block;
+	top: -5px;
+	right: 0px;
+	background: #EDEADD;
+	text-align: right;
+	width: 120px;
+}
+
+div#footer-left {
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	display:block;
+	background: #EDEADD;
+	font-size: 1em;
+	width: 120px;
+}
+
+div#header-right {
+	position: absolute;
+	left: 220px;
+	width: 100px;
+}
+
+div#header-right a {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+}
+
+div#header-right a img {
+	width:100%;
+	height: 100%;
+}
+
+div#header-left {
+	position: absolute;
+	bottom:0;
+	left:0px;
+	font-size: 1.2em;
+}
+
+div#navbar table a {
+	width: 50px;
+}
+
+div.post-mega-box {
+	width:200px;
+	font-size: .8em;
+}
+
+div.post-mega-box img {
+	width: 100%;
+	height: auto;
+}
+
+div#about-left {
+	width: 0px;
+}
+
+div#about-left img {
+	display: none;
+}
+
+div#about-right {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	float:none;
+	width: 250px;
+}
+div#about-bottom {
+	display: block;
+	margin:0 auto;
+}
+div#about-top {
+	font-size: .8em;
+}

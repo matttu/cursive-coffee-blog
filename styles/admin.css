@@ -1,0 +1,19 @@
+
+div#cke_content {
+	width: 100%;
+}
+
+div#createPost {
+	text-align: center;
+}
+
+div#createPost input[type='text'] {
+	width: 100%;
+	height: 25px;
+	margin: 0 0 10px 0;
+}
+
+div#createPost input[type='submit'] {
+	margin: 0 auto;
+	width: 100px;
+}

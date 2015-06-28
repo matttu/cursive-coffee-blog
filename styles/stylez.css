@@ -1,0 +1,251 @@
+/* Cursive Coffee */
+
+html,body{
+	padding: 0 0;
+	margin: 0 0;
+	height: 100%;
+	width: 100%;
+	background: #EDEADD;
+	color: #16120F;
+}
+
+a {
+	color: #16120F;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #16120F;
+}
+
+body {
+	font-family: courier, monospace;
+	font-size: .8em;
+}
+
+div#container {
+	position: relative;
+	margin-top: 0;
+	padding: 0;
+}
+
+div#content {
+	display: block;
+	margin: 0 auto 0 auto;
+	padding: 0 50px;
+	width: 900px;
+	/*
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 15px 10px rgba(255,255,255,1); 
+	-moz-box-shadow: 0px 0px 15px 10px rgba(255,255,255,1); 
+	box-shadow: 0px 0px 15px 10px rgba(255,255,255,1); 
+	*/
+}
+
+div#header {
+	display: block;
+	text-align: center;
+	font-size: 2em;
+}
+
+div#header-left {
+	position: absolute;
+	bottom: 0px; left: 25px;
+	font-size: 1.5em;
+}
+
+div#header-right {
+	position: absolute;
+	bottom:20px;
+	left: 725px;
+	width: 300px;
+}
+
+div#header-right a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+}
+
+div#header-left a, div#header-right a {
+  	transition: all 0.4s ease;
+  	outline: none 0;
+	-moz-outline: none 0;
+}
+
+div#header-left a:hover, div#header-right a:hover {
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 20px 15px rgba(255,255,255,1); 
+	-moz-box-shadow: 0px 0px 20px 15px rgba(255,255,255,1); 
+	box-shadow: 0px 0px 20px 15px rgba(255,255,255,1); 
+}
+
+div#leftcorner {
+	position:absolute;
+	top: 10px;
+	left: 500px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 0 0 20px;
+	border-color: transparent transparent transparent #eee;
+	line-height: 0px;
+}
+
+div#rightcorner {
+	position:absolute;
+	top: 50px;
+	left: 740px;
+	width: 200px;
+	height: 0px;
+	line-height: 0px;
+}
+
+div#header-left>img {
+	display: none;
+}
+
+div#logo {
+	position: relative;
+	display: block;
+	height: 100px;
+	width: 300px;
+	display:block;
+	z-index: 3;
+	margin: 0 auto;
+	font-size: .9em;
+	overflow: visible;
+}
+
+/* menu & logo */
+div#logo img[alt="blog"] {
+	width: 100%;
+	margin-bottom: -70px;
+}
+
+div#logo img[alt="tag"] {
+	position:absolute;
+	bottom: 10px; left: 0;
+	height: 20px;
+}
+
+div#navbar {
+}
+
+div#navbar table {
+	text-align: center;
+	font-size: .9em;
+	white-space: nowrap;
+	margin: 0 auto 25px auto;
+}
+
+div#navbar table td {
+	position: relative;
+}
+
+div#navbar table a {
+	display: block;
+	font-weight: bold;
+	position: relative;
+	text-decoration: none;
+	font-family: Courier, monospace;
+	margin-left: 25px;
+	text-align: center;
+}
+
+div#navbar table a:visited {
+	color: #16120F;
+}
+
+div#navbar a#active, a#active:hover {
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 20px 15px rgba(255,255,255,1); 
+	-moz-box-shadow: 0px 0px 20px 15px rgba(255,255,255,1); 
+	box-shadow: 0px 0px 20px 15px rgba(255,255,255,1); 	
+}
+
+div#logo-menu {
+	position: relative;
+	display: block;
+	width: 1000px;
+	height: 150px;
+	margin: -20px auto 25px auto;
+	border-bottom: 1px #aaa solid;
+}
+
+div#logo-menu table#admin-nav {
+	position: absolute;
+	top: 25px; right: 110px;
+}
+
+div#footer {
+	display: block;
+	position: relative;
+	width: 1000px;
+	margin: 30px auto 0 auto;
+}
+
+div#kettle {
+	position: absolute;
+	top: 0; left: 50%;
+	height: 40px;
+	width: 80px;
+	margin-left: -40px;
+	background: #EDEADD;
+	text-align: center;
+}
+
+div#kettle img {
+	height: 100%;
+}
+
+div#footer-inset {
+	display: block;
+	width:1000px;
+	height: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid #aaa;
+	z-index: -1;
+}
+
+div#kettle span {
+	display: none;
+}
+
+div#footer-right {
+	position: absolute;
+	font-size: 1.2em;
+	display: block;
+	top: -5px;
+	right: 0px;
+	background: #EDEADD;
+	text-align: right;
+	width: 300px;
+}
+
+div#footer-left {
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	display:block;
+	background: #EDEADD;
+	font-size: 1.2em;
+	width: 300px;
+}
+
+div#header-banner {
+	text-align: center;
+	display: block;
+	width: 1000px;
+	font-size: 1.2em;
+	font-family: courier;
+	font-weight: bold;
+	margin: -5px auto 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px #aaa solid;
+}

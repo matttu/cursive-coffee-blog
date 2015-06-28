@@ -1,0 +1,77 @@
+div.post-mega-box {
+	position: relative;
+	width: 600px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 40px 25px 40px;
+	background: #EDEADD;
+}
+
+div#header {
+	background: #EDEADD;
+	width: 680px;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-size: 3em;
+	border-bottom: 1px solid #fff;
+	letter-spacing: 5px;
+}
+
+div#next-page {
+	position: absolute;
+	right: 40px; bottom: 40px;
+}
+
+div#prev-page {
+	position: absolute;
+	left: 40px; bottom: 40px;
+}
+
+div#next-page a, div#prev-page a {
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+div#next-page a:hover, div#prev-page a:hover {
+	color: #777;
+}
+
+div#content {
+	margin-top: 0px;
+}
+
+h3.post-title {
+	font-family: courier, monospace;
+	font-weight: normal;
+	font-size: 1.8em;
+	position: relative;
+	top: 16px;
+}
+
+div.post-date {
+	position: absolute;
+	top: -25px; left: 0;
+	font-family: courier, monospace;
+	color: #16120F;
+}
+
+div.post-box {
+	position: relative;
+	margin: -20px 0 75px;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 1.2em;
+	line-height: 250%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+div.edit-post {
+	text-align: right;
+	font-size: .75em;
+}
+
+div.delete-post {
+	text-align: right;
+	font-size: .75em;
+}

@@ -1,0 +1,110 @@
+div#content {
+	width: 600px;
+}
+
+div#logo-menu {
+	width: 600px;
+	height: 100px;
+}
+
+div#logo {
+	height: 100px;
+	width: 150px;
+	margin-top: 20px;
+}
+
+div#logo div#tagline {
+	display: none;
+}
+
+div#slider {
+	width: 600px;
+}
+
+div#footer {
+	width: 600px;
+}
+
+div#footer-inset {
+	display: block;
+	width:600px;
+	height: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid #aaa;
+	z-index: -1;
+}
+
+div#footer-right {
+	position: absolute;
+	font-size: 1em;
+	display: block;
+	top: -5px;
+	right: 0px;
+	background: #EDEADD;
+	text-align: right;
+	width: 200px;
+}
+
+div#footer-left {
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	display:block;
+	background: #EDEADD;
+	font-size: 1em;
+	width: 200px;
+}
+
+div#header-right {
+	position: absolute;
+	left: 420px;
+	width: 200px;
+}
+
+div#header-left {
+	position: absolute;
+	bottom:0;
+	left:0px;
+	font-size: 1.2em;
+}
+
+div#navbar table a {
+	width: 60px;
+}
+
+div#logo-menu table#admin-nav {
+	top: 5px;
+}
+
+
+div#header {
+	width: 580px;
+}
+
+div.post-mega-box {
+	width:500px;
+}
+
+div#about-left {
+	position: relative;
+	float: left;
+	width: 0px;
+	margin-right: 75px;
+	padding-top: 25px;
+}
+
+div#about-left img {
+	display: none;
+}
+
+div#about-right {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	float:none;
+	width: 500px;
+}
+div#about-bottom {
+	display: block;
+	margin:0 auto;
+	}
