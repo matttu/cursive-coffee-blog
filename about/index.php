@@ -93,7 +93,7 @@ $(document).ready(function() {
 			</div>
 			<div id="about-bottom">
 			<div id="about-left">
-				<img src="pictures/coffee1.jpg" id="about-approach-img">
+				<img src="./pictures/coffee.jpg" id="about-approach-img">
 			</div>
 			<div id="about-right">
 				<div id="about-main-content" class="active">
