@@ -2,6 +2,8 @@
 
 This is a full-stack website that I built for a coffee shop based in Middlebury, VT. 
 
+The current website (linked above) does not include the blog section because we deemed it unecessary for CC's needs as a business, but the original code still lives at this repository.
+
 In order to view this locally, you will need to have a MySQL database named 'cursive_coffee' running on localhost with the following tables:
 
 ``` sql
